@@ -1,0 +1,328 @@
+.test-page {
+  position: relative;
+}
+.test-page img {
+  max-width: 100%;
+}
+.test-page .save {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  font-size: 2em;
+}
+.test-page .save-web {
+  pointer-events: none;
+}
+
+.start-page {
+  height: 100%;
+  width: 100%;
+  background: url(/rem-test/static/home.5.jpg) no-repeat 50% 0;
+  background-size: 100% auto;
+  position: relative;
+}
+.start-page .people {
+  width: 10.875rem;
+  height: 5.5rem;
+  background: url(/rem-test/static/人.e.png) no-repeat 50%;
+  background-size: contain;
+  position: absolute;
+  top: 10.9375rem;
+  left: 4.6875rem;
+}
+.start-page .slogan {
+  width: 100%;
+  height: 12.59375rem;
+  background: url(/rem-test/static/slogan-button.a.png) no-repeat 50%;
+  background-size: 19.78125rem 12.59375rem;
+  position: absolute;
+  top: 15rem;
+  left: 0;
+}
+.start-page .start {
+  width: 9.84375rem;
+  height: 2.8125rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 23.75rem;
+  left: 5rem;
+}
+
+.alert-model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alert-model .title {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  word-break: break-all;
+  margin: 0 1em;
+}
+
+.lock-model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lock-model .title {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  word-break: break-all;
+  margin: 0 1em;
+}
+
+.answer-page {
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  position: relative;
+}
+.answer-page .question-title {
+  font-size: 0.9375rem;
+  color: #ffffff;
+  width: 15.625rem;
+  padding-top: 4.375rem;
+  margin: 0 auto 0.3125rem;
+}
+.answer-page .question-select {
+  width: 17.8125rem;
+  height: 5.15625rem;
+  margin: 0 auto -0.625rem;
+  background: url(/rem-test/static/question.select-bg.6.png) no-repeat;
+  background-size: cover;
+  color: #87492a;
+  font-size: 0.6875rem;
+  box-sizing: border-box;
+  font-weight: bold;
+  padding: 0 2.8125rem 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.scale {
+  transform: scale(1.1);
+}
+.answer-page .question-select .mask {
+  position: absolute;
+  left: 0;
+  top: 18%;
+  width: 100%;
+  height: 64%;
+}
+.answer-page .box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.answer-page .page-animated {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: 50% bottom;
+  background-size: 100%;
+}
+.answer-page .box {
+  height: 200%;
+}
+.answer-page .animated1 {
+  background-image: url(/rem-test/static/飞机.7.png);
+}
+.answer-page .animated2 {
+  background-image: url(/rem-test/static/烟花.7.png);
+}
+.answer-page .animated3 {
+  background-image: url(/rem-test/static/礼物.4.png);
+}
+.answer-page .animated4 {
+  background-image: url(/rem-test/static/鸡腿.6.png);
+}
+.answer-page .animated5 {
+  background-image: url(/rem-test/static/心.b.png);
+}
+.answer-page .animated6 {
+  background-image: url(/rem-test/static/云.b.png);
+}
+.answer-page .animated7 {
+  background-image: url(/rem-test/static/流星.e.png);
+}
+.answer-page .animated8 {
+  background-image: url(/rem-test/static/雪花.a.png);
+}
+.answer-page .animated9 {
+  background-image: url(/rem-test/static/钻石.5.png);
+}
+.goleft {
+  animation: goleft 600ms linear;
+  animation-fill-mode: both;
+}
+@keyframes goleft {
+  from {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: rotate(-45deg);
+    opacity: 0;
+  }
+}
+.goright {
+  animation: goright 600ms linear;
+  animation-fill-mode: both;
+}
+@keyframes goright {
+  from {
+    transform: rotate(45deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.nickname-page {
+  height: 100%;
+  width: 100%;
+  background-size: 100% auto;
+  position: relative;
+}
+.nickname-page .title {
+  padding-top: 10.9375rem;
+  font-size: 1.875rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.875rem;
+}
+.nickname-page .input {
+  width: 17.8125rem;
+  height: 5.15625rem;
+  background: url(/rem-test/static/input.6.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+.nickname-page .input input {
+  display: block;
+  border: none;
+  box-sizing: border-box;
+  width: 12.8125rem;
+  height: 2.1875rem;
+  position: relative;
+  background: none;
+  top: 1.40625rem;
+  left: 2.8125rem;
+  font-size: 0.9375rem;
+  color: #87492a;
+}
+.nickname-page .input input:focus {
+  outline: none;
+}
+.nickname-page .input input::placeholder {
+  color: #87492a;
+}
+.nickname-page .button {
+  margin: 0 auto;
+  width: 11.5rem;
+  height: 5.46875rem;
+  background: url(/rem-test/static/button.f.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: -1.5625rem;
+}
+
+.result-page {
+  position: relative;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.result-page img {
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.result-page .save {
+  position: fixed;
+  top: 70%;
+  right: 0;
+  color: #fff;
+  height: 1.5625rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1.5625rem 0 0 1.5625rem;
+  font-size: 0.75rem;
+}
+.result-page .save {
+  background: url(/rem-test/static/download.e.png) no-repeat 0.46875rem 50% rgba(0, 0, 0, 0.5);
+  background-size: 0.9375rem 0.9375rem;
+  padding-left: 1.5625rem;
+  padding-right: 0.3125rem;
+}
+.result-page .save.web {
+  pointer-events: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 22.5rem;
+  min-height: 35.59375rem;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.dely {
+  animation-delay: 0.3s;
+}
+.public-bg {
+  background: url(/rem-test/static/bg.7.jpg) no-repeat 50% 0;
+}
+.public-ren {
+  z-index: 0;
+  width: 100%;
+  height: 5.5rem;
+  position: absolute;
+  bottom: 3.5rem;
+  left: 0;
+  background: url(/rem-test/static/人.c.png) no-repeat 50% 100%;
+  background-size: 10.875rem 5.5rem;
+  pointer-events: none;
+}
+.public-yun {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url(/rem-test/static/底部云.4.png) no-repeat 50% 100%;
+  background-size: 23.4375rem 6.75rem;
+  pointer-events: none;
+}
+
